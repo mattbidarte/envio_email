@@ -9,7 +9,6 @@ public class EmailService {
 
     private final JavaMailSender mailSender;
 
-    // Inyectamos el componente que sabe enviar mails
     public EmailService(JavaMailSender mailSender) {
         this.mailSender = mailSender;
     }
